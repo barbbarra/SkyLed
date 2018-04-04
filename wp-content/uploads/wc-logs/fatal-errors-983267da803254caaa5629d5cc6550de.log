@@ -1,0 +1,30 @@
+2018-04-03T20:48:47+00:00 CRITICAL Uncaught Error: Call to undefined function blogifo() in /Users/barbaraastorga/sites/SkyLed/wp-content/themes/wp_boilerplate-master/header.php:7
+Stack trace:
+#0 /Users/barbaraastorga/sites/SkyLed/wp-includes/template.php(688): require_once()
+#1 /Users/barbaraastorga/sites/SkyLed/wp-includes/template.php(647): load_template('/Users/barbaraa...', true)
+#2 /Users/barbaraastorga/sites/SkyLed/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /Users/barbaraastorga/sites/SkyLed/wp-content/themes/wp_boilerplate-master/index.php(1): get_header()
+#4 /Users/barbaraastorga/sites/SkyLed/wp-includes/template-loader.php(74): include('/Users/barbaraa...')
+#5 /Users/barbaraastorga/sites/SkyLed/wp-blog-header.php(19): require_once('/Users/barbaraa...')
+#6 /Users/barbaraastorga/sites/SkyLed/index.php(17): require('/Users/barbaraa...')
+#7 {main}
+  thrown
+
+2018-04-04T00:05:53+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /Users/barbaraastorga/sites/SkyLed/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:627
+Stack trace:
+#0 /Users/barbaraastorga/sites/SkyLed/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /Users/barbaraastorga/sites/SkyLed/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /Users/barbaraastorga/sites/SkyLed/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/barbaraastorga/sites/SkyLed/wp-admin/admin-ajax.php(97): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown
+
+2018-04-04T00:06:26+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_variation_attributes() in /Users/barbaraastorga/sites/SkyLed/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:627
+Stack trace:
+#0 /Users/barbaraastorga/sites/SkyLed/wp-includes/class-wp-hook.php(286): WC_AJAX::add_variation('')
+#1 /Users/barbaraastorga/sites/SkyLed/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /Users/barbaraastorga/sites/SkyLed/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/barbaraastorga/sites/SkyLed/wp-admin/admin-ajax.php(97): do_action('wp_ajax_woocomm...')
+#4 {main}
+  thrown
+
