@@ -10,7 +10,7 @@
 	<?php get_template_part('_includes/iOS', 'icons') ?>
 	<?php wp_head() ?>
 </head>
-<body class="bg_blanco">
+<body class="bg_blanco woocommerce">
 
 	  <!--barra de navegación-->
 	  <div class="navbar navbar-expand-lg navbar-light bg-light sticky-top pt-0 pl-5- pb-0">
