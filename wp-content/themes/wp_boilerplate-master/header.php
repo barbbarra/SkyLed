@@ -12,6 +12,8 @@
 </head>
 <body class="bg_blanco woocommerce">
 
+		<div class="container">
+
 	  <!--barra de navegación-->
 	  <div class="navbar navbar-expand-lg navbar-light bg-light sticky-top pt-0 pl-5- pb-0">
 	    <a class="navbar-brand p-0" href="#"><img class= "logo"src="<?php bloginfo('template_url') ?>/assets/img/logo-skyled.svg" alt="logo skyled"></a>

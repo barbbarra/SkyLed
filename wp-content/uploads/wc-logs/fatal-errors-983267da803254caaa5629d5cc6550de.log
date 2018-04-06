@@ -28,3 +28,35 @@ Stack trace:
 #4 {main}
   thrown
 
+2018-04-05T21:26:10+00:00 CRITICAL Uncaught Error: Call to undefined function is_safari() in /Users/barbaraastorga/sites/SkyLed/wp-content/themes/wp_boilerplate-master/functions/hide_admin_bar.php:4
+Stack trace:
+#0 /Users/barbaraastorga/sites/SkyLed/wp-content/themes/wp_boilerplate-master/functions.php(10): require_once()
+#1 /Users/barbaraastorga/sites/SkyLed/wp-settings.php(426): include('/Users/barbaraa...')
+#2 /Users/barbaraastorga/sites/SkyLed/wp-config.php(89): require_once('/Users/barbaraa...')
+#3 /Users/barbaraastorga/sites/SkyLed/wp-load.php(37): require_once('/Users/barbaraa...')
+#4 /Users/barbaraastorga/sites/SkyLed/wp-blog-header.php(13): require_once('/Users/barbaraa...')
+#5 /Users/barbaraastorga/sites/SkyLed/index.php(17): require('/Users/barbaraa...')
+#6 {main}
+  thrown
+
+2018-04-05T21:26:21+00:00 CRITICAL Uncaught Error: Call to undefined function is_safari() in /Users/barbaraastorga/sites/SkyLed/wp-content/themes/wp_boilerplate-master/functions/hide_admin_bar.php:4
+Stack trace:
+#0 /Users/barbaraastorga/sites/SkyLed/wp-content/themes/wp_boilerplate-master/functions.php(10): require_once()
+#1 /Users/barbaraastorga/sites/SkyLed/wp-settings.php(426): include('/Users/barbaraa...')
+#2 /Users/barbaraastorga/sites/SkyLed/wp-config.php(89): require_once('/Users/barbaraa...')
+#3 /Users/barbaraastorga/sites/SkyLed/wp-load.php(37): require_once('/Users/barbaraa...')
+#4 /Users/barbaraastorga/sites/SkyLed/wp-blog-header.php(13): require_once('/Users/barbaraa...')
+#5 /Users/barbaraastorga/sites/SkyLed/index.php(17): require('/Users/barbaraa...')
+#6 {main}
+  thrown
+
+2018-04-05T21:26:22+00:00 CRITICAL Uncaught Error: Call to undefined function is_safari() in /Users/barbaraastorga/sites/SkyLed/wp-content/themes/wp_boilerplate-master/functions/hide_admin_bar.php:4
+Stack trace:
+#0 /Users/barbaraastorga/sites/SkyLed/wp-content/themes/wp_boilerplate-master/functions.php(10): require_once()
+#1 /Users/barbaraastorga/sites/SkyLed/wp-settings.php(426): include('/Users/barbaraa...')
+#2 /Users/barbaraastorga/sites/SkyLed/wp-config.php(89): require_once('/Users/barbaraa...')
+#3 /Users/barbaraastorga/sites/SkyLed/wp-load.php(37): require_once('/Users/barbaraa...')
+#4 /Users/barbaraastorga/sites/SkyLed/wp-admin/admin-ajax.php(22): require_once('/Users/barbaraa...')
+#5 {main}
+  thrown
+

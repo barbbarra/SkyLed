@@ -2,6 +2,7 @@ body {
   background: #3DC2CB;
   height: 100vh;
   transition: background-color .5s linear;
+  margin-top: 150px;
 }
 
 body.bg_blanco {
@@ -438,4 +439,12 @@ div .contact-pageheader{
 }
 .space-medium{
   background-color: #3DC2CB;
+}
+
+
+/*woocommerce*/
+
+.woocommerce a.button {
+  background-color: #3DC2CB;
+  color: white;
 }
