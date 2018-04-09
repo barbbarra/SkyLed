@@ -1,5 +1,12 @@
 <?php get_header('home') ?>
 
+<!--Flecha-->
+<div class="container" id="flecha">
+  <div class="chevron"></div>
+  <div class="chevron"></div>
+  <div class="chevron"></div>
+</div>
+
   <!--sofa cambia de color-->
   <section class="sofa" id="home">
     <div class="jumbotron pb-0 mb-0">
@@ -48,7 +55,6 @@
     <div class="container">
       <div class="row">
           <div class="col-lg-4 col-md-6">
-            <p class="texto text-light font-weight-light">Las tarifas de los envíos dependerán del peso, volumen, empresa transportista y el tipo de medio seleccionado (Terrestre o aéreo).</p>
             <p class="texto text-light font-weight-light">Las tarifas de los envíos dependerán del peso, volumen, empresa transportista y el tipo de medio seleccionado (Terrestre o aéreo).</p>
             <p class="texto3 text-light font-weight-light">Los daños producidos por fuerza mayor que no tengan que ver con embalajes defectuosos, serán de total responsabilidad de la compañía de encomiendas que esté realizando el transporte, eximiendo completa y totalmente a SkyLed de cualquier reclamo o cambio por maltrato físico del producto.</p>
           </div>
@@ -189,7 +195,7 @@
                   <div class="contact-section">
                       <div class="contact-icon"><i class="fa fa-map-marker"></i></div>
                       <div class="contact-info">
-                          <p class="text-light font-weight-light">Esta es nuestra dirección</p>
+                          <p class="text-light font-weight-light">Antonio Varas #303 of 708</p>
                       </div>
                   </div>
                    <div class="contact-section">

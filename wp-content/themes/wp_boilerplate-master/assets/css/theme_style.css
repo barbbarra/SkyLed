@@ -3,6 +3,7 @@ body {
   height: 100vh;
   transition: background-color .5s linear;
   margin-top: 150px;
+  position: relative;
 }
 
 body.bg_blanco {
@@ -11,8 +12,13 @@ body.bg_blanco {
 
 .navbar{
   position: fixed;
+  height: 150px;
+  background-color: white !important;
   width: 100%;
-  background-color: rgba(255,255, 255, 0.9) !important;
+
+}
+.navbar ul li {
+  padding: 10px;
 }
 
 .productos{
@@ -42,9 +48,12 @@ svg .imgsvg{
 
 .sofa .jumbotron {
   padding: 0;
+
 }
 
 .sofa div.img {
+  z-index: 1;
+  position: relative;
   background-image: url('../img/sofa-led2.png');
   background-size: 800px auto;
   background-position: center;
@@ -55,6 +64,7 @@ svg .imgsvg{
   width: 100%;
   display: block;
   transition: background-color .6s linear;
+  top: 0px;
 }
 
 .blue,
@@ -95,6 +105,7 @@ svg .imgsvg{
     height: 800px;
   }
 }
+
 
 /*políticas de envío*/
 .texto {
@@ -448,3 +459,84 @@ div .contact-pageheader{
   background-color: #3DC2CB;
   color: white;
 }
+
+.woocommerce-products-header__title {
+  color: #3DC2CB;
+  }
+
+
+  /*flecha*/
+
+
+  #flecha {
+    z-index: 2;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+
+  .chevron {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+  }
+
+  .chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+  }
+
+  .chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+  }
+
+  .chevron:before,
+  .chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #fff;
+  }
+
+  .chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+  }
+
+  .chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+  }
+
+  @keyframes move {
+    25% {
+      opacity: 1;
+
+    }
+    33% {
+      opacity: 1;
+      transform: translateY(30px);
+    }
+    67% {
+      opacity: 1;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+  }
+
+  @keyframes pulse {
+    to {
+      opacity: 1;
+    }
+  }
