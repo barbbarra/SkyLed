@@ -466,10 +466,14 @@ div .contact-pageheader{
 
 
   /*flecha*/
-
+.laflecha{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
 
   #flecha {
-    z-index: 2;
     top: 0px;
     display: flex;
     justify-content: center;

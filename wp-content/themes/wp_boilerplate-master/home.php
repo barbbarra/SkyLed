@@ -1,12 +1,13 @@
 <?php get_header('home') ?>
 
 <!--Flecha-->
-<div class="container" id="flecha">
-  <div class="chevron"></div>
-  <div class="chevron"></div>
-  <div class="chevron"></div>
+<div class="laflecha">
+  <div class="container" id="flecha">
+    <div class="chevron"></div>
+    <div class="chevron"></div>
+    <div class="chevron"></div>
+  </div>
 </div>
-
   <!--sofa cambia de color-->
   <section class="sofa" id="home">
     <div class="jumbotron pb-0 mb-0">
