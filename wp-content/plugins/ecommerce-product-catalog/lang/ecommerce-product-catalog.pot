@@ -1,17 +1,21 @@
 # Copyright (C) 2017 eCommerce Product Catalog by impleCode
 # This file is distributed under the same license as the eCommerce Product Catalog by impleCode package.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: eCommerce Product Catalog by impleCode 2.6.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ecommerce-product-"
 "catalog\n"
-"POT-Creation-Date: 2017-02-03 12:52:39+00:00\n"
+"POT-Creation-Date: 2018-04-10 18:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Loco https://localise.biz/"
 
 #: config/const.php:19
 msgid "Product"
@@ -122,8 +126,8 @@ msgstr ""
 msgid ""
 "Click <a href=\"%s\">here</a> to test the Automatic Advanced Mode. If the "
 "test goes well you can keep it enabled and enjoy full %s functionality. If "
-"the page layout during the test will not be satisfying please see <a target="
-"\"_blank\" href=\"%s\">Theme Integration Guide</a>"
+"the page layout during the test will not be satisfying please see <a "
+"target=\"_blank\" href=\"%s\">Theme Integration Guide</a>"
 msgstr ""
 
 #: functions/activation.php:101
@@ -315,9 +319,9 @@ msgstr ""
 
 #: functions/support.php:65
 msgid ""
-"If you need to get it on different email address please use the <a href=\"%s"
-"\">impleCode website to order the premium support</a>. It will let you set "
-"different email address than the one for PayPal."
+"If you need to get it on different email address please use the <a "
+"href=\"%s\">impleCode website to order the premium support</a>. It will let "
+"you set different email address than the one for PayPal."
 msgstr ""
 
 #: functions/support.php:66 includes/settings/general.php:122
@@ -346,8 +350,8 @@ msgstr ""
 
 #: functions/support.php:113
 msgid ""
-"<b>Please do not donate</b> (we finance the %3$s development from <a href="
-"\"%1$s\">premium support</a> and <a href=\"%2$s\">extensions</a>)"
+"<b>Please do not donate</b> (we finance the %3$s development from <a "
+"href=\"%1$s\">premium support</a> and <a href=\"%2$s\">extensions</a>)"
 msgstr ""
 
 #: functions/support.php:118
@@ -376,8 +380,8 @@ msgstr ""
 
 #: includes/extensions.php:85
 msgid ""
-"All premium extensions come with premium support provided by dev team."
-"<br>Feel free to contact impleCode for configuration help, troubleshooting, "
+"All premium extensions come with premium support provided by dev team.<br>"
+"Feel free to contact impleCode for configuration help, troubleshooting, "
 "installation assistance and any other plugin support at any time!"
 msgstr ""
 
@@ -452,8 +456,8 @@ msgstr ""
 
 #: includes/extensions.php:582
 msgid ""
-"The supplied license key is not valid for this extension! Upgrade it <a href="
-"\"%s\">here</a>."
+"The supplied license key is not valid for this extension! Upgrade it <a "
+"href=\"%s\">here</a>."
 msgstr ""
 
 #: includes/extensions.php:589
@@ -488,6 +492,7 @@ msgstr ""
 
 #: includes/product-categories.php:31 includes/product-categories.php:41
 #: includes/widgets/category-widget.php:20
+msgctxt "Categorias"
 msgid "%s Categories"
 msgstr ""
 
@@ -704,10 +709,12 @@ msgid "Remove main %s image"
 msgstr ""
 
 #: includes/product.php:67
+msgctxt "Agregar nuevo"
 msgid "Add New"
 msgstr ""
 
 #: includes/product.php:68 includes/product.php:70
+msgctxt "Agregar nuevo item"
 msgid "Add New Item"
 msgstr ""
 
@@ -744,10 +751,12 @@ msgid "%s Short Description"
 msgstr ""
 
 #: includes/product.php:186
+msgctxt "Descripción"
 msgid "%s description"
 msgstr ""
 
 #: includes/product.php:187
+msgctxt "Detalles"
 msgid "%s Details"
 msgstr ""
 
@@ -1066,6 +1075,7 @@ msgid "archive pagination"
 msgstr ""
 
 #: includes/settings/custom-names.php:19
+msgctxt "Precio"
 msgid "%s Price"
 msgstr ""
 
@@ -1094,6 +1104,7 @@ msgid "Free"
 msgstr ""
 
 #: includes/settings/custom-names.php:26
+msgctxt "Descripción"
 msgid "%s Description"
 msgstr ""
 
@@ -1139,6 +1150,7 @@ msgid "Next Page »"
 msgstr ""
 
 #: includes/settings/custom-names.php:61 includes/settings/custom-names.php:72
+msgctxt "Página previa"
 msgid "« Previous Page"
 msgstr ""
 
@@ -1150,8 +1162,7 @@ msgstr ""
 msgid "All Products"
 msgstr ""
 
-#: includes/settings/custom-names.php:82
-#: includes/settings/custom-names.php:118
+#: includes/settings/custom-names.php:82 includes/settings/custom-names.php:118
 #: includes/settings/custom-names.php:150
 msgid "Front-end Labels"
 msgstr ""
@@ -1388,8 +1399,8 @@ msgstr ""
 
 #: includes/settings/general.php:236
 msgid ""
-"Category pages are disabled with simple theme integration. See <a href=\"%s"
-"\">Theme Integration Guide</a> to enable category pages or use "
+"Category pages are disabled with simple theme integration. See <a "
+"href=\"%s\">Theme Integration Guide</a> to enable category pages or use "
 "[show_products category=\"1\"] (where \"1\" is category ID) on any page to "
 "show products from certain category."
 msgstr ""
@@ -1460,8 +1471,8 @@ msgstr ""
 
 #: includes/settings/general.php:275
 msgid ""
-"SEO settings are disabled with simple theme integration. See <a href=\"%s"
-"\">Theme Integration Guide</a> to enable SEO settings."
+"SEO settings are disabled with simple theme integration. See <a href=\"%s\">"
+"Theme Integration Guide</a> to enable SEO settings."
 msgstr ""
 
 #: includes/settings/general.php:277
@@ -1482,8 +1493,8 @@ msgstr ""
 
 #: includes/settings/general.php:291
 msgid ""
-"Breadcrumbs are disabled with simple theme integration. See <a href=\"%s"
-"\">Theme Integration Guide</a> to enable product breadcrumbs."
+"Breadcrumbs are disabled with simple theme integration. See <a href=\"%s\">"
+"Theme Integration Guide</a> to enable product breadcrumbs."
 msgstr ""
 
 #: includes/settings/general.php:293
@@ -1916,8 +1927,8 @@ msgstr ""
 #: includes/widgets/filter-widgets.php:175
 #: modules/price/widgets/price-filter-widget.php:83
 msgid ""
-"Sort widget is disabled with simple theme integration. Please see <a href="
-"\"%s\">Theme Integration Guide</a> to enable product sort widget."
+"Sort widget is disabled with simple theme integration. Please see <a "
+"href=\"%s\">Theme Integration Guide</a> to enable product sort widget."
 msgstr ""
 
 #: includes/widgets/filter-widgets.php:177
@@ -1944,8 +1955,8 @@ msgstr ""
 #: includes/widgets/related-products-widget.php:56
 #: includes/widgets/search-widget.php:54
 msgid ""
-"Search widget is disabled with simple theme integration. Please see <a href="
-"\"%s\">Theme Integration Guide</a> to enable product search widget."
+"Search widget is disabled with simple theme integration. Please see <a "
+"href=\"%s\">Theme Integration Guide</a> to enable product search widget."
 msgstr ""
 
 #: includes/widgets/related-products-widget.php:58
@@ -1954,6 +1965,7 @@ msgid "Search widget is disabled due to a lack of theme integration.%s"
 msgstr ""
 
 #: includes/widgets/search-widget.php:20 includes/widgets/search-widget.php:78
+msgctxt "Buscar"
 msgid "%s Search"
 msgstr ""
 
@@ -2169,9 +2181,9 @@ msgstr ""
 #: modules/shipping/shipping-settings.php:75
 msgid ""
 "If you fill out the fields below, system will automatically pre-fill the "
-"fields when adding new item so you doesn't have to fill them every time.</"
-"p><p>When every item in your catalogue has different shipping options you "
-"can leave all or just a part of these fields empty."
+"fields when adding new item so you doesn't have to fill them every time.</p>"
+"<p>When every item in your catalogue has different shipping options you can "
+"leave all or just a part of these fields empty."
 msgstr ""
 
 #: modules/shipping/shipping-settings.php:75
@@ -2496,6 +2508,7 @@ msgid "Enter site key"
 msgstr ""
 
 #: partners/wpml/templates/products-compact.php:77
+msgctxt "Agregar"
 msgid "Add"
 msgstr ""
 
@@ -2657,9 +2670,9 @@ msgstr ""
 
 #: templates.php:258
 msgid ""
-"Use %1$swidth%2$s to change the product page horizontal size, %1$spadding"
-"%2$s to generate space around the content and %1$sbackground%2$s to match "
-"your theme color"
+"Use %1$swidth%2$s to change the product page horizontal size, "
+"%1$spadding%2$s to generate space around the content and %1$sbackground%2$s "
+"to match your theme color"
 msgstr ""
 
 #: templates.php:259
@@ -2836,6 +2849,7 @@ msgid "Congratulations! Now your theme is fully integrated with %s."
 msgstr ""
 
 #: theme-product_adder_support.php:69
+msgctxt "Agregar Producto"
 msgid "Add Product"
 msgstr ""
 
