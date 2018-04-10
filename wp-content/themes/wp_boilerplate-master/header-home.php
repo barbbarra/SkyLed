@@ -28,6 +28,6 @@
 
 														) ); ?>
 				<?php } ?>
-	      <p class="font-weight-light text-success"><a href="/my-accound">login</a></p>
+	      <p class="font-weight-light text-success"><a href="/my-account">login</a></p>
 	    </div>
 	  </div>
